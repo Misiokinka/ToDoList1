@@ -1,0 +1,41 @@
+p,
+input,
+button,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.containerApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wrapperApp {
+
+    border: 3px solid hwb(2222112 68% -4%);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+    background-color: hwb(2222112 72% -23%)
+}
+
+.sectionApp {
+    padding: 40px 60px;
+}
+
+.titleApp {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.sectionAppColor {
+    padding: 40px 60px;
+    background-color: hwb(2222112 84% -22%);
+    border: 2px solid hwb(2222112 68% -4%);
+    border-radius: 10px;
+}

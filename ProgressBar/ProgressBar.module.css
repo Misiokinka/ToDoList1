@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.progressBar {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: hwb(2222112 80% -23%);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 30px;
+    /* Высота блока прогресса */
+    border: 1px solid black;
+}
+
+.progressBarFill {
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.progressLabel {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.removeTasksBtn {
+    border: 1px solid black;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #b3dcfd;
+    border-radius: 5px;
+    height: 100%;
+    /* Высота кнопки должна соответствовать высоте блока прогресса */
+    display: flex;
+    align-items: center;
+}

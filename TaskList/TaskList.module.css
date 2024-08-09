@@ -1,0 +1,39 @@
+.taskList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.taskListText {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 88px;
+}
+
+
+
+
+/* .taskImgDel {
+    width: 12px;
+    height: 15px;
+    color: red;
+    transition: color 0.3s ease;
+
+} 
+
+ .lowProgress {
+    padding: 5px 10px;
+    width: 100% !important;
+    background-color: yellow !important;
+    color: black !important;
+}
+
+.highProgress {
+
+    width: 100% !important;
+    background-color: #90EE90 !important;
+    color: black !important;
+} */

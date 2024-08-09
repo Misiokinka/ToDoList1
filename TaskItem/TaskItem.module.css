@@ -1,0 +1,100 @@
+.taskItem {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    text-align: left;
+    border: 1px solid black;
+    padding: 7px;
+
+}
+
+.checkBoxChange {
+    font-size: 16px;
+    text-decoration: line-through;
+    text-align: left;
+    width: 100%;
+    padding: 5px;
+}
+
+.taskBtnWrapper {
+    display: flex;
+    gap: 7px;
+
+}
+
+
+.taskItemInput {
+    width: 15px;
+    height: 15px;
+}
+
+.taskInputBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: hwb(2222112 80% -22%);
+    height: 25px;
+    padding: 0px 2px;
+    cursor: pointer;
+
+}
+
+.taskItemInputEdit {
+    border: none;
+    /* border-bottom: 2px solid #1e4bd1; */
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    background-color: hwb(2222112 80% -22%);
+
+}
+
+.taskItemInputEdit:focus {
+    outline: none;
+    border-color: #121212;
+    background: rgba(73, 133, 224, 0.12);
+}
+
+
+.taskItemInputEdit:hover {
+    background: rgba(73, 133, 224, 0.12);
+    border-color: #121212;
+}
+
+
+.taskItemImgEdit {
+    width: 20px;
+    height: 24px;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.taskItemImgEdit:hover {
+    color: gray;
+}
+
+.taskItemImgDel:hover {
+    color: #A52A2A;
+}
+
+.taskItemImgDel {
+    width: 17px;
+    height: 22px;
+    color: red;
+    transition: color 0.3s ease;
+}
+
+.taskItemImg:hover {
+    color: blue;
+
+}
+
+.taskText {
+    font-size: 16px;
+    width: 100%;
+    padding: 5px;
+
+}
